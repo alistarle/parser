@@ -1,0 +1,40 @@
+---------------
+ name [  key = "value" ]
+ . name [key="value"]
+---------------
+ . name [  key = "value" ]
+ . name [key="value"]
+---------------
+ [  key = "value" ]
+ . [key="value"]
+---------------
+ . [  key = "value" ]
+ . [key="value"]
+---------------
+ name 
+ . name
+---------------
+ . name 
+ . name
+---------------
+-> name [  key = "value" ]
+ -> name [key="value"]
+---------------
+ --> name [  key = "value" ]
+ --> name [key="value"]
+---------------
+ <- name [  key = "value" ]
+ <- name [key="value"]
+---------------
+ <-- name [  key = "value" ]
+ <-- name [key="value"]
+---------------
+s  <-- a <- f -> s --> d
+ . s <-- a <- f -> s --> d
+---------------
+ <-- [  key = "value" ]
+ <-- [key="value"]
+---------------
+ <-- [  key = "value" ] . [p=""]
+ . [p=""] <-- [key="value"]
+---------------

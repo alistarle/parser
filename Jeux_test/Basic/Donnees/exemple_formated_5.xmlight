@@ -1,0 +1,18 @@
+<boulangerie ferme="lundi">
+ <croissant nbr="4"/>
+ <baguette nbr="2"/>
+</boulangerie>
+<marche>
+ <panier numero="1">
+  <pomme kg="3"/>
+  <poires kg="5"/>
+ </panier>
+ <panier numero="2">
+  <poireaux bottes="5"/>
+  <choux type="blanc" nombre="2"/>
+  <choux type="vert" nombre="1"/>
+ </panier>
+ <panier numero="3">
+  <brocoli/>
+ </panier>
+</marche>
